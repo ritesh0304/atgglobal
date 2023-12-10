@@ -1,0 +1,118 @@
+
+/* header */
+#head1 img{
+    width: 40vw;
+}
+#head1 > div > span{
+   display: none;
+}
+#head2{
+    display: none;
+    position: relative;
+    width: 100%;
+
+}
+#head1 input{
+    display : none;
+}
+
+#menu{
+    display: block;
+    height: fit-content;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: white;
+    height: 28px;
+}
+.show {
+    display: flex !important; /* Show head2 content when the 'show' class is applied */
+
+}
+#head2 ul{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:48px;
+  left:2vw;
+  background-color: rgb(255, 255, 255);
+  color: purple;
+  width: 100%;
+  border-radius: 10px;
+}
+#head2 ul li{
+    border-bottom: 2px solid rgba(162, 157, 157, 0.331);
+    text-align: center;
+}
+#head2 button{
+    display: none;
+}
+
+#notification{
+    display: block;
+    position: absolute;
+    background-color: white;
+    right: 20%;
+    margin-top: 15px;
+}
+#search{
+    display: block;
+    position: absolute;
+    background-color: white;
+    right: 30%;
+    margin-top: 15px;
+}
+/* main */
+
+#main{
+  flex-direction: column;    
+}
+
+#main1, #main2{
+    width: 100%;
+}
+#main2{
+    margin: 2vw 2vw;
+}
+#main2 button , #main2 div input{
+    margin: 3vw 0vw;
+}
+#main2 div p{
+
+}
+/* features */
+
+#feature1, #feature2{
+   flex-direction: column;
+}
+.feature-box{
+    margin-bottom: 2vw;
+}
+/* testimonials */
+#testimonials{
+    padding: 2vw 2vw;
+    text-align: center;
+    /* font-size: 3.5vw; */
+}
+#audio{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#audio-content1, #audio-content2{
+    margin: 3vw;
+    width: 100%;
+}
+#audio-content2{
+  justify-content: center;
+}
+/* footer */
+#footer{
+    flex-direction: column;
+}
+
+#footer > div{
+   width: 100%;
+   text-align: center;
+   margin-bottom: 2vh;
+}
